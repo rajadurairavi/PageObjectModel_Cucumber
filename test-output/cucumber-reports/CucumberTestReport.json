@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "scenario is to automate the Free CRM Login Page",
+        "description": "",
+        "id": "feature-of-free-crm-login-page;scenario-is-to-automate-the-free-crm-login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8693952819,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Check user able to access FreeCRM Site",
+            "match": {
+              "location": "LoginPage_StepDefinition.check_user_able_to_access_FreeCRM_Site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 67046741,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Check title page",
+            "match": {
+              "location": "LoginPage_StepDefinition.check_title_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5885299347,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter UserName and Password",
+            "match": {
+              "location": "LoginPage_StepDefinition.enter_UserName_and_Password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10942706,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Check user landed in home page",
+            "match": {
+              "location": "LoginPage_StepDefinition.check_user_landed_in_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 679683397,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Close the browser",
+            "match": {
+              "location": "LoginPage_StepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Feature of Free CRM Login Page",
+    "description": "",
+    "id": "feature-of-free-crm-login-page",
+    "keyword": "Feature",
+    "uri": "C:/Automation/PageObjectModel_Cucumber/src/main/java/com/qa/features/FreeCRM.feature"
+  }
+]
